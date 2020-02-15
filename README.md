@@ -14,7 +14,7 @@ This is an app that utilises:
 
 ---
 
-This was our first project in the Bootcamp. Users can search for their favourite artists and similar artists will show up using an ajax call. Clicking on one of the similar artists will open youtube and that artists music videos. Alternatively if you go to tracks - you can search for an artist and album and it will show similar tracks based on your search parameters using last.fm api.
+This was our first project in the Bootcamp. Users can search for their favourite artists and similar artists will show up using an ajax call. Clicking on one of the similar artists will open youtube and that artists music videos. You can click the star to favourite an artist and persistent data will remain when you refresh the page. Alternatively if you go to tracks - you can search for an artist and album and it will show similar tracks based on your search parameters using last.fm api.
 
 
 ---
