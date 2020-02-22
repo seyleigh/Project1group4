@@ -1,6 +1,6 @@
 var favoriteArtist = [];
 
-$("#submit").on('click', function (event) {
+$(".submit").on('click', function (event) {
 
     event.preventDefault();
 
@@ -10,7 +10,7 @@ $("#submit").on('click', function (event) {
 
     var artistSearch = $("#artistName").val().trim();
 
-    $("#artist").append($(`<h2>Similar artist to ${artistSearch}!</h2> <h4>Click on the photo of the artist to check them out on YouTube</h4>`));
+    $("#artist").append($(`<div class="results"><h2>Similar artist to ${artistSearch}!</h2> <h4>Click on the photo of the artist to check them out on YouTube</h4> </div>`));
     // var track = $("#trackName").val().trim();
     // add the autocorrect feature to the URL
     

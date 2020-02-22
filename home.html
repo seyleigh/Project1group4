@@ -14,7 +14,7 @@
     <header class="content">
             <nav class="navbar navbar-expand-md navbar-dark bg-dark">
                     <div class="d-flex w-50 order-0">
-                        <a class="navbar-brand mr-1" href="index.html"><img src="assets/images/Asset 1.png" width= "15%">Cognate Records</a>
+                        <a class="navbar-brand mr-1" href="index.html"><img src="assets/images/Asset 1.png" width= "7%">Cognate Records</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -35,17 +35,24 @@
 <div id="page-content">     
 <section class="container mt-5">
     <form>
-    <div class="row">
-        <div class="col-lg-6">
-        <!-- <label for="artistInput">Artist</label> -->
-        <input type="arist" class="form-control mb-sm-2" id="artistName" aria-describedby="emailHelp" placeholder="Enter an Artist">
-        <button type="submit" class="btn btn-primary justify-content-around" id="submit">Submit</button>    
-    </div>
-        
-        
-        
-        
-    </div>
+        <div class="row">
+
+            <div class="input-group mb-3 col-lg-12">
+                <input type="text" class="form-control" id="artistName" placeholder="Enter an Artist" aria-label="Enter an Artist" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                  <button class="submit btn btn-outline-light" type="submit" id="button-addon2">Submit</button>
+                </div>
+              </div>
+
+
+            <!-- <div class="col-lg-12">
+                <input type="arist" class="form-control mb-sm-2 d-block" id="artistName" aria-describedby="emailHelp" placeholder="Enter an Artist"> -->
+                <!-- <div class="input-group-append">
+                    <button class="input-group-text" id="basic-addon2">@example.com</button>
+                  </div> -->
+                 <!-- <button type="submit" class="btn btn-primary justify-content-around" id="submit">Submit</button>     -->
+             <!-- </div> -->
+        </div>
     </form>
         <div id="artist"></div>
         <div class="showContent" id="artistPost"></div>
